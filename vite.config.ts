@@ -81,6 +81,11 @@ export default defineConfig((config) => {
         '**/tests/preview/**', // Exclude preview tests that require Playwright
       ],
     },
+    server: {
+      allowedHosts: [
+        'imob-boltdiy.8cpouf.easypanel.host',
+      ],
+    },
   };
 });
 
