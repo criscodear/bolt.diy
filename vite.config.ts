@@ -83,7 +83,7 @@ export default defineConfig((config) => {
     },
     server: {
       allowedHosts: [
-        'imob-bolt.8cpouf.easypanel.host/',
+        'imob-bolt.8cpouf.easypanel.host',
       ],
     },
   };
